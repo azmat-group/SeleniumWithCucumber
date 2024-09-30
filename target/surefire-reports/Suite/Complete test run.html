@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 30 20:04:49 EEST 2024</td>
+<td>Started on:</td><td>Mon Sep 30 20:29:28 EEST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5469 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3632 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,100 +76,56 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with correct username and password", "Optional[LoginFeature]"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 129.0.6668.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;
-System info: host: &apos;LAPTOP-TRKN4Q4L&apos;, ip: &apos;172.31.16.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:159)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:252)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:82)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:86)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:75)
-	at steps.Hook.InitializeTest(Hook.java:38)
-</pre></div><a href='#' onClick='toggleBox("stack-trace767312012", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace767312012'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 129.0.6668.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;
-System info: host: &apos;LAPTOP-TRKN4Q4L&apos;, ip: &apos;172.31.16.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:159)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:252)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:82)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:86)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:75)
-	at steps.Hook.InitializeTest(Hook.java:38)
-</pre></div></td>
-<td>2</td>
-<td>runner.TestRunner@298a5e20</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with correct username and password to fail", "Optional[LoginFeature]"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 129.0.6668.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;
-System info: host: &apos;LAPTOP-TRKN4Q4L&apos;, ip: &apos;172.31.16.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:159)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:252)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:82)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:86)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:75)
-	at steps.Hook.InitializeTest(Hook.java:38)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1502971166", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1502971166'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
-Current browser version is 129.0.6668.70 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;
-System info: host: &apos;LAPTOP-TRKN4Q4L&apos;, ip: &apos;172.31.16.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:159)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:252)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:82)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:99)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:86)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:75)
-	at steps.Hook.InitializeTest(Hook.java:38)
+<td><div><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:186)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:419)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:227)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:197)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:175)
+	at steps.Hook.InitializeTest(Hook.java:36)
+</pre></div><a href='#' onClick='toggleBox("stack-trace263588219", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace263588219'><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:186)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:419)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:227)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:197)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:175)
+	at steps.Hook.InitializeTest(Hook.java:36)
 </pre></div></td>
 <td>1</td>
-<td>runner.TestRunner@298a5e20</td></tr>
+<td>runner.TestRunner@543295b0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with correct username and password to fail", "Optional[LoginFeature]"</td>
+<td><div><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:186)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:419)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:227)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:197)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:175)
+	at steps.Hook.InitializeTest(Hook.java:36)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1196200241", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1196200241'><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:186)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:419)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:227)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:197)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:175)
+	at steps.Hook.InitializeTest(Hook.java:36)
+</pre></div></td>
+<td>0</td>
+<td>runner.TestRunner@543295b0</td></tr>
 </table><p>
 </body>
 </html>

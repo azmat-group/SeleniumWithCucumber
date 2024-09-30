@@ -2,7 +2,6 @@ package Base;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
