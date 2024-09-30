@@ -11,10 +11,8 @@ import Base.BaseUtil;
 
 import io.cucumber.java.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.checkerframework.checker.units.qual.C;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 /**
@@ -35,7 +33,7 @@ public class Hook extends BaseUtil{
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless");
-        base.Driver = new ChromeDriver(chromeOptions);
+        base.Driver = new FirefoxDriver();
     }
 
 
