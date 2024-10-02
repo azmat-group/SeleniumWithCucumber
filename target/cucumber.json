@@ -3,12 +3,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-09-30T17:29:29.000Z",
+        "start_timestamp": "2024-10-01T14:26:05.309Z",
         "before": [
           {
             "result": {
-              "error_message": "java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:186)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:419)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:227)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:197)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:175)\r\n\tat steps.Hook.InitializeTest(Hook.java:36)\r\n",
-              "duration": 1185516600,
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn\u0027t exist\nBuild info: version: \u00274.0.0-beta-2\u0027, revision: \u00274ec0cfc112\u0027\nSystem info: host: \u0027LAPTOP-TRKN4Q4L\u0027, ip: \u0027172.31.16.1\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {desiredCapabilities\u003dCapabilities {browserName: chrome}}]\nCapabilities {}\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:252)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:174)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:99)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:86)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:75)\r\n\tat steps.Hook.InitializeTest(Hook.java:40)\r\n",
+              "duration": 63645932400,
               "status": "failed"
             },
             "match": {
@@ -23,8 +23,8 @@
         "after": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"Base.BaseUtil.Driver\" is null\r\n\tat steps.Hook.TearDownTest(Hook.java:47)\r\n",
-              "duration": 1935700,
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"Base.BaseUtil.Driver\" is null\r\n\tat steps.Hook.TearDownTest(Hook.java:51)\r\n",
+              "duration": 3002400,
               "status": "failed"
             },
             "match": {
@@ -42,6 +42,7 @@
             "before": [
               {
                 "result": {
+                  "duration": 1001000,
                   "status": "skipped"
                 },
                 "match": {
@@ -57,6 +58,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 999500,
                   "status": "skipped"
                 },
                 "match": {
@@ -68,6 +70,7 @@
           },
           {
             "result": {
+              "duration": 1001400,
               "status": "skipped"
             },
             "before": [
@@ -113,6 +116,7 @@
           },
           {
             "result": {
+              "duration": 996200,
               "status": "skipped"
             },
             "before": [
@@ -144,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 1265800,
+              "duration": 997600,
               "status": "skipped"
             },
             "before": [
@@ -177,12 +181,12 @@
         ]
       },
       {
-        "start_timestamp": "2024-09-30T17:29:30.226Z",
+        "start_timestamp": "2024-10-01T14:27:09.002Z",
         "before": [
           {
             "result": {
-              "error_message": "java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:186)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:419)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:227)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:197)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:175)\r\n\tat steps.Hook.InitializeTest(Hook.java:36)\r\n",
-              "duration": 672661700,
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: DevToolsActivePort file doesn\u0027t exist\nBuild info: version: \u00274.0.0-beta-2\u0027, revision: \u00274ec0cfc112\u0027\nSystem info: host: \u0027LAPTOP-TRKN4Q4L\u0027, ip: \u0027172.31.16.1\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {desiredCapabilities\u003dCapabilities {browserName: chrome}}]\nCapabilities {}\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:252)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:174)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:82)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:99)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:86)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:75)\r\n\tat steps.Hook.InitializeTest(Hook.java:40)\r\n",
+              "duration": 60974431700,
               "status": "failed"
             },
             "match": {
@@ -197,7 +201,7 @@
         "after": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"Base.BaseUtil.Driver\" is null\r\n\tat steps.Hook.TearDownTest(Hook.java:47)\r\n",
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"Base.BaseUtil.Driver\" is null\r\n\tat steps.Hook.TearDownTest(Hook.java:51)\r\n",
               "status": "failed"
             },
             "match": {
@@ -215,7 +219,6 @@
             "before": [
               {
                 "result": {
-                  "duration": 1001100,
                   "status": "skipped"
                 },
                 "match": {
@@ -242,6 +245,7 @@
           },
           {
             "result": {
+              "duration": 1354100,
               "status": "skipped"
             },
             "before": [
@@ -292,6 +296,7 @@
             "before": [
               {
                 "result": {
+                  "duration": 1506100,
                   "status": "skipped"
                 },
                 "match": {
@@ -338,7 +343,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 995100,
                   "status": "skipped"
                 },
                 "match": {
